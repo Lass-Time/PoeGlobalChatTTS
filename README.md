@@ -41,10 +41,10 @@ A Python GUI app that monitors a `.txt` file and speaks any new lines containing
 
 ### ✅ Step 3: Install Dependencies
 
-Open Command Prompt in the project folder and run:
+Open Command Prompt run:
 
 ```bash
-pip install -r requirements.txt
+pip install gTTS pygame pyinstaller
 ```
 
 This installs:
@@ -56,34 +56,21 @@ This installs:
 
 ### ✅ Step 4: Run the Program
 
-```bash
-python src/tts_gui_gtts_pygame_controls.py
-```
+!!! Move "tts_gui_gtts_pygame_controls.py" from src into the same folder as the build_exe_gtts_pygame_controls.bat file!!!
 
-The GUI will launch.
+This will create the exe in the "dist" folder 
 
 ---
 
 ### ✅ Step 5: Using the App
 
-1. Click **"Browse"** and select a `.txt` file
+1. Click **"Browse"** and select a `.txt` file (\Program Files (x86)\Steam\steamapps\common\Path of Exile\logs) |select client.txt|
 2. Adjust **volume** and **pitch** (simulated)
 3. Press **Start Monitoring**
-4. Add lines like:
-   ```
-   Narrator: #Welcome to the system
-   User: #Hello!
-   ```
-5. It will speak any new lines with `#` after monitoring starts.
+4. It will speak any new lines with `#` after monitoring starts.
 
 ---
 
-### 🛠 Optional: Build a Standalone .EXE
-
-Run this in Command Prompt:
-
-```bash
-build_exe_gtts_pygame_controls.bat
 ```
 
 The `.exe` will appear in the `dist/` folder.
