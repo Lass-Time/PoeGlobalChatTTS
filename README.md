@@ -11,7 +11,7 @@ A Python GUI that monitors a `.txt` file and reads lines with `#` using text-to-
 ## How to Use
 1. Select a `.txt` file with lines like:
    ```
-   (logs file under \Path of Exile\logs)
+   (Client.txt file under \Program Files (x86)\Steam\steamapps\common\Path of Exile\logs)
    Narrator: #Welcome to the system
    ```
 2. Click "Start Monitoring"
